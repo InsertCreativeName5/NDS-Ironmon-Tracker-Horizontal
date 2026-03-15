@@ -15,8 +15,9 @@ local function CoverageCalcScreen(initialSettings, initialTracker, initialProgra
     local tracker = initialTracker
     local program = initialProgram
     local constants = {
-        MAIN_FRAME_HEIGHT = 341,
-        BUTTON_SIZE = 10
+        MAIN_FRAME_HEIGHT = 241,
+        BUTTON_SIZE = 10,
+        NUM_DISPLAYED = 4
     }
     local ui = {}
     local eventListeners = {}
@@ -130,7 +131,7 @@ local function CoverageCalcScreen(initialSettings, initialTracker, initialProgra
 
     local function readCurrentEffectivenessSelection()
         local items = pokemonScroller.getViewedItems()
-        for index = 1, 10, 1 do
+        for index = 1, constants.NUM_DISPLAYED, 1 do
             local row = pokemonListRows[index]
             local pathPrefix = "ironmon_tracker/images/types/"
             local name = ""
@@ -406,7 +407,7 @@ local function CoverageCalcScreen(initialSettings, initialTracker, initialProgra
                     height = 0
                 }
             ),
-            Layout(Graphics.ALIGNMENT_TYPE.HORIZONTAL, 0, {x = 92, y = 7}),
+            Layout(Graphics.ALIGNMENT_TYPE.HORIZONTAL, 0, {x = 92, y = 4}),
             ui.frames.mainInnerFrame
         )
         ui.controls.goBackButton =
@@ -478,7 +479,7 @@ local function CoverageCalcScreen(initialSettings, initialTracker, initialProgra
             Frame(
             Box(
                 {x = 0, y = 0},
-                {width = Graphics.SIZES.MAIN_SCREEN_WIDTH - 16, height = 163},
+                {width = Graphics.SIZES.MAIN_SCREEN_WIDTH - 16, height = 67},
                 "Top box background color",
                 "Top box border color"
             ),
@@ -491,7 +492,7 @@ local function CoverageCalcScreen(initialSettings, initialTracker, initialProgra
             Layout(Graphics.ALIGNMENT_TYPE.VERTICAL, 0, {x = 3, y = 3}),
             ui.frames.pokemonListOuterFrame
         )
-        local items = 10
+        local items = constants.NUM_DISPLAYED
         for i = 1, items, 1 do
             createRow()
         end

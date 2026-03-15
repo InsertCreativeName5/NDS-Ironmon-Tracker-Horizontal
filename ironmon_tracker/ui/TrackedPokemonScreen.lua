@@ -104,7 +104,7 @@ local function TrackedPokemonScreen(initialSettings, initialTracker, initialProg
     end
 
     local function onGoBackClick()
-        client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, 0)
+        client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, Graphics.SIZES.OPTIONS_PADDING)
         program.undoTrackedPokemonView()
         program.openScreen(program.UI_SCREENS.TRACKED_INFO_SCREEN)
     end

@@ -17,7 +17,7 @@ local function TrackerSetupScreen(initialSettings, initialTracker, initialProgra
         previousText = ""
     }
     local constants = {
-        MAIN_FRAME_HEIGHT = 141,
+        MAIN_FRAME_HEIGHT = 114,
         BOTTOM_FRAME_HEIGHT = 24,
         TEXT_HEADER_HEIGHT = 18,
         FOLDER_LABEL_WIDTH = 96,
@@ -26,11 +26,11 @@ local function TrackerSetupScreen(initialSettings, initialTracker, initialProgra
         SET_BUTTON_HEIGHT = 14,
         SAVE_LOAD_BUTTON_WIDTH = 62,
         SAVE_LOAD_BUTTON_HEIGHT = 16,
-        CHOOSE_TYPE_FRAME_HEIGHT = 89,
-        PATH_SETUP_FRAME_HEIGHT = 36,
+        CHOOSE_TYPE_FRAME_HEIGHT = 59,
+        PATH_SETUP_FRAME_HEIGHT = 26,
         TYPE_OPTION_FRAME_HEIGHT = 13,
         BATCH_SETUP_FRAME_HEIGHT = 62,
-        GENERATE_ROM_FRAME_HEIGHT = 179
+        GENERATE_ROM_FRAME_HEIGHT = 153
     }
     local ui = {}
     local eventListeners = {}
@@ -67,7 +67,7 @@ local function TrackerSetupScreen(initialSettings, initialTracker, initialProgra
     end
 
     function self.initialize()
-        ui.controls.quickLoadValue.setText(settings.controls.LOAD_NEXT_SEED:gsub(" ", "   "))
+        --ui.controls.quickLoadValue.setText(settings.controls.LOAD_NEXT_SEED:gsub(" ", "   "))
     end
 
     local function onRadioClick(button)
@@ -114,7 +114,7 @@ local function TrackerSetupScreen(initialSettings, initialTracker, initialProgra
                 {x = Graphics.SIZES.SCREEN_WIDTH, y = 0},
                 {
                     width = 0,
-                    height = 20
+                    height = 15
                 },
                 nil,
                 nil
@@ -393,7 +393,7 @@ local function TrackerSetupScreen(initialSettings, initialTracker, initialProgra
         for _, settingValue in pairs(order) do
             createTypeChooseRadioButtonRow(setting, settingValue, typeSettings[settingValue])
         end
-        createQuickLoadComboFrame()
+        --createQuickLoadComboFrame()
     end
 
     local function createBatchSetupFrame()

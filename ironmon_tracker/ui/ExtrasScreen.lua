@@ -19,8 +19,8 @@ local function ExtrasScreen(initialSettings, initialTracker, initialProgram)
 	local self = {}
 
 	local constants = {
-		MAIN_FRAME_HEIGHT = 310,
-		EXTRAS_HEIGHT = 256,
+		MAIN_FRAME_HEIGHT = 190,
+		EXTRAS_HEIGHT = 190,
 		EXTRA_ENTRY_TITLE_ROW_HEIGHT = 21,
 		EXTRA_ENTRY_TEXT_ROW_HEIGHT = 10,
 		EXTRA_WIDTH = 124,
@@ -42,7 +42,7 @@ local function ExtrasScreen(initialSettings, initialTracker, initialProgram)
 		ui.frames.goBackFrame =
 			Frame(
 			Box(
-				{x = 0, y = 0},
+				{x = 0, y = -200},
 				{
 					width = 0,
 					height = 0
@@ -56,7 +56,7 @@ local function ExtrasScreen(initialSettings, initialTracker, initialProgram)
 			Component(
 				ui.frames.goBackFrame,
 				Box(
-					{x = Graphics.SIZES.MAIN_SCREEN_WIDTH - 54, y = 8},
+					{x = Graphics.SIZES.MAIN_SCREEN_WIDTH - 54, y = -100},
 					{width = 40, height = 14},
 					"Top box background color",
 					"Top box border color",
@@ -106,31 +106,6 @@ local function ExtrasScreen(initialSettings, initialTracker, initialProgram)
 			useEnabledButton = false,
 			buttonText = "Open",
 			buttonFunction = onCoverageCalc
-		},
-		{
-			name = "Tourney Tracker",
-			iconImage = "trophy.png",
-			imageOffset = {x = 0, y = 0},
-			descriptionRows = {
-				"Auto tracks your scores",
-				"for Crozwords' tourneys."
-			},
-			settingsKey = "tourneyTracker",
-			useEnabledButton = true,
-			buttonText = "Clear Tourney Scores",
-			buttonFunction = onClearClick
-        },
-        {
-			name = "Stream Connect",
-			iconImage = "streamerbot.png",
-			imageOffset = {x = 1, y = 1},
-			descriptionRows = {
-				"Connects to streaming",
-				"services for chat interaction."
-			},
-			settingsKey = "streamerbot",
-			buttonText = "Open Config",
-			buttonFunction = OpenStreamerBotConfig
 		}
 	}
 

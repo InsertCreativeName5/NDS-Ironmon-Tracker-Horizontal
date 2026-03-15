@@ -43,7 +43,7 @@ local function ColorSchemeScreen(initialSettings, initialTracker, initialProgram
     end
 
     local function onGoBackClick()
-        client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, 0)
+        client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, Graphics.SIZES.OPTIONS_PADDING)
         program.setCurrentScreens({program.UI_SCREENS.APPEARANCE_OPTIONS_SCREEN})
         program.drawCurrentScreens()
     end
@@ -334,7 +334,7 @@ local function ColorSchemeScreen(initialSettings, initialTracker, initialProgram
         ui.frames.mainFrame =
             Frame(
             Box(
-                {x = Graphics.SIZES.SCREEN_WIDTH + Graphics.SIZES.MAIN_SCREEN_WIDTH + 48, y = 0},
+                {x = Graphics.SIZES.SCREEN_WIDTH + Graphics.SIZES.MAIN_SCREEN_WIDTH, y = 0},
                 {width = Graphics.SIZES.MAIN_SCREEN_WIDTH, height = constants.MAIN_FRAME_HEIGHT},
                 "Main background color",
                 nil

@@ -12,10 +12,10 @@ local function MainOptionsScreen(initialSettings, initialTracker, initialProgram
 	local tracker = initialTracker
 	local program = initialProgram
 	local constants = {
-		MAIN_OPTIONS_HEIGHT = 222,
+		MAIN_OPTIONS_HEIGHT = 190,
 		MAIN_BUTTONS_Y_OFFSET = 23,
 		MAIN_BUTTONS_X_OFFSET = 15,
-		MAIN_BUTTON_SPACING = 5,
+		MAIN_BUTTON_SPACING = 1,
 		MAIN_BUTTON_WIDTH = 110,
 		MAIN_BUTTON_HEIGHT = 19
 	}
@@ -178,7 +178,7 @@ local function MainOptionsScreen(initialSettings, initialTracker, initialProgram
 		ui.frames.bottomFrame =
 			Frame(
 			Box(
-				{x = 0, y = constants.MAIN_BUTTONS_Y_OFFSET + 168},
+				{x = 0, y = constants.MAIN_BUTTONS_Y_OFFSET + 138},
 				{
 					width = Graphics.SIZES.MAIN_SCREEN_WIDTH - 2 * Graphics.SIZES.BORDER_MARGIN,
 					height = 21

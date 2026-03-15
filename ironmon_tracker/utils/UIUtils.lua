@@ -17,6 +17,7 @@ end
 
 function UIUtils.moveHoverFrameToMouse(hoverFrame, alignment, frameToAlignWith)
     local position = Input.getMousePosition()
+    position.y = position.y
     UIUtils.clampFramePosition(alignment, position, frameToAlignWith, hoverFrame.getSize())
     hoverFrame.move(position)
 end

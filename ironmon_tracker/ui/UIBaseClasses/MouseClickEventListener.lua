@@ -31,12 +31,14 @@ local function MouseClickEventListener(
             local position = control.getPosition()
             local size = control.getSize()
             inRange =
-                MiscUtils.mouseInRange(mousePosition.x, mousePosition.y, position.x, position.y, size.width, size.height)
+                MiscUtils.mouseInRange(mousePosition.x, mousePosition.y, position.x+92, position.y, size.width, size.height)
         else
             inRange = false
         end
         local leftPress = Input.getMouse()[clickType]
         if previouslyPressed ~= nil then
+            if leftPress and control.getPosition().x == 604 then
+            end
             if leftPress and not previouslyPressed and inRange then
                 onClick(onClickParams)
                 mouseDownActivated = true

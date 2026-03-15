@@ -13,14 +13,14 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
     local tracker = initialTracker
     local program = initialProgram
     local constants = {
-        MAIN_HEIGHT = 314,
+        MAIN_HEIGHT = 250,
         TOGGLE_FRAME_WIDTH = 200,
         TOGGLE_FRAME_HEIGHT = 12,
         BUTTON_SIZE = 10,
         MAIN_BUTTON_WIDTH = 106,
         MAIN_BUTTON_HEIGHT = 19,
         BADGE_COLOR_FRAME_HEIGHT = 84,
-        BUTTONS_FRAME_HEIGHT = 124
+        BUTTONS_FRAME_HEIGHT = 60
     }
     local ui = {}
     local eventListeners = {}
@@ -31,13 +31,13 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
     end
 
     local function onBadgesAppearanceClick()
-        client.SetGameExtraPadding(0, 0, Graphics.SIZES.BADGE_COLOR_EDIT_PADDING, 0)
+        client.SetGameExtraPadding(0, 0, Graphics.SIZES.BADGE_COLOR_EDIT_PADDING, Graphics.SIZES.OPTIONS_PADDING)
         program.setCurrentScreens({program.UI_SCREENS.MAIN_SCREEN, program.UI_SCREENS.BADGES_APPEARANCE_SCREEN})
         program.drawCurrentScreens()
     end
 
     local function onColorEditClick()
-        client.SetGameExtraPadding(0, 0, Graphics.SIZES.BADGE_COLOR_EDIT_PADDING, 0)
+        client.SetGameExtraPadding(0, 0, Graphics.SIZES.BADGE_COLOR_EDIT_PADDING, Graphics.SIZES.OPTIONS_PADDING)
         program.setCurrentScreens({program.UI_SCREENS.MAIN_SCREEN, program.UI_SCREENS.COLOR_SCHEME_SCREEN})
         program.drawCurrentScreens()
     end
@@ -55,7 +55,7 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
     local function onToggleClick(button)
         button.onClick()
         program.drawCurrentScreens()
-        client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, 0)
+        client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, Graphics.SIZES.OPTIONS_PADDING)
     end
 
     local function createToggleRow(key, settingsKey, parentFrame)
@@ -112,14 +112,14 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
     local function initAppearanceToggleButtons()
         local orderedKeys = {
             "AUTO_POKEMON_THEMES",
-            "EXPERIENCE_BAR",
-            "RANDOM_BALL_PICKER",
+            -- "EXPERIENCE_BAR",
+            -- "RANDOM_BALL_PICKER",
             "REPEL_ICON",
-            "RIGHT_JUSTIFIED_NUMBERS",
-            "SHOW_POKECENTER_HEALS",
+            -- "RIGHT_JUSTIFIED_NUMBERS",
+            -- "SHOW_POKECENTER_HEALS",
             "SHOW_ACCURACY_AND_EVASION",
             "SHOW_NICKNAME",
-            "BAG_HEALS_SHOW_HP_INSTEAD"
+            -- "BAG_HEALS_SHOW_HP_INSTEAD"
         }
         ui.frames.buttonsFrame =
             Frame(

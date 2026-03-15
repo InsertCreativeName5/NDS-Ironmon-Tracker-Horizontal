@@ -874,10 +874,9 @@ local function Program(initialTracker, initialMemoryAddresses, initialGameInfo, 
 		if not canDraw then
 			return
 		end
-		Graphics.SIZES.MAIN_SCREEN_PADDING = 199
 		local total = getScreenTotal()
 		if currentScreens[self.UI_SCREENS.MAIN_SCREEN] and total == 1 then
-			client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, 0)
+			client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, Graphics.SIZES.OPTIONS_PADDING)
 		end
 		self.UI_SCREEN_OBJECTS[self.UI_SCREENS.TOURNEY_TRACKER_SCREEN].show()
 		local last = {

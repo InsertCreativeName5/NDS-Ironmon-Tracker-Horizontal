@@ -17,7 +17,7 @@ end
 function Input.getMousePosition()
 	return {
 		x = mouse["X"],
-		y = (mouse["Y"] + 384) / 2
+		y = (mouse["Y"])
 	}
 end
 
