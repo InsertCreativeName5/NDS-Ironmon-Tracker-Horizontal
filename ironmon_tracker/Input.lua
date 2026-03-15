@@ -16,7 +16,7 @@ end
 
 function Input.getMousePosition()
 	return {
-		x = mouse["X"],
+		x = (mouse["X"]/2) + 256,
 		y = (mouse["Y"])
 	}
 end

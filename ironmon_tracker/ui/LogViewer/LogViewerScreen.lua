@@ -250,7 +250,7 @@ local function LogViewerScreen(initialSettings, initialTracker, initialProgram)
             Frame(
             Box(
                 {x = 0, y = 0},
-                {width = Graphics.SIZES.SCREEN_WIDTH, height = Graphics.SIZES.SCREEN_HEIGHT},
+                {width = Graphics.SIZES.SCREEN_WIDTH - 256, height = Graphics.SIZES.SCREEN_HEIGHT},
                 "Main background color",
                 "Main background color"
             ),

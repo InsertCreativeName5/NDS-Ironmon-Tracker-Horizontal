@@ -337,7 +337,7 @@ local function PivotsScreen(initialSettings, initialTracker, initialProgram, ini
             Box(
                 {x = 0, y = 0},
                 {
-                    width = Graphics.SIZES.SCREEN_WIDTH - constants.SELECTOR_FRAME_WIDTH - 21,
+                    width = Graphics.SIZES.SCREEN_WIDTH - 256 - constants.SELECTOR_FRAME_WIDTH - 21,
                     height = constants.POKEMON_LIST_HEIGHT
                 },
                 "Top box background color",
@@ -373,7 +373,7 @@ local function PivotsScreen(initialSettings, initialTracker, initialProgram, ini
             Box(
                 {x = 0, y = 0},
                 {
-                    width = Graphics.SIZES.SCREEN_WIDTH - constants.SELECTOR_FRAME_WIDTH - 15,
+                    width = Graphics.SIZES.SCREEN_WIDTH - 256 - constants.SELECTOR_FRAME_WIDTH - 15,
                     height = Graphics.SIZES.SCREEN_HEIGHT - 2 * Graphics.SIZES.BORDER_MARGIN - Graphics.LOG_VIEWER.TAB_HEIGHT -
                         5
                 },
@@ -410,7 +410,7 @@ local function PivotsScreen(initialSettings, initialTracker, initialProgram, ini
                     y = Graphics.LOG_VIEWER.TAB_HEIGHT + Graphics.SIZES.BORDER_MARGIN + 5
                 },
                 {
-                    width = Graphics.SIZES.SCREEN_WIDTH - 2 * Graphics.SIZES.BORDER_MARGIN,
+                    width = Graphics.SIZES.SCREEN_WIDTH - 256 - 2 * Graphics.SIZES.BORDER_MARGIN,
                     height = Graphics.SIZES.SCREEN_HEIGHT - 2 * Graphics.SIZES.BORDER_MARGIN - Graphics.LOG_VIEWER.TAB_HEIGHT -
                         5
                 }

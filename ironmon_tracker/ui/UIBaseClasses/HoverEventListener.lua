@@ -61,7 +61,7 @@ local function HoverEventListener(
         local size = control.getSize()
         local mousePosition = Input.getMousePosition()
         local inRange =
-            MiscUtils.mouseInRange(mousePosition.x, mousePosition.y, position.x+11, position.y, size.width, size.height)
+            MiscUtils.mouseInRange(mousePosition.x, mousePosition.y, position.x, position.y, size.width, size.height)
 
         local leftClicked = false
         local leftPress = Input.getMouse()["Left"]

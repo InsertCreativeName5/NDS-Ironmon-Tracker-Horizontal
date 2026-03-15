@@ -268,7 +268,7 @@ local function GymTMScreen(initialSettings, initialTracker, initialProgram, init
                     y = Graphics.LOG_VIEWER.TAB_HEIGHT + Graphics.SIZES.BORDER_MARGIN + 5
                 },
                 {
-                    width = Graphics.SIZES.SCREEN_WIDTH - 2 * Graphics.SIZES.BORDER_MARGIN,
+                    width = Graphics.SIZES.SCREEN_WIDTH - 256 - 2 * Graphics.SIZES.BORDER_MARGIN,
                     height = Graphics.SIZES.SCREEN_HEIGHT - 2 * Graphics.SIZES.BORDER_MARGIN -
                         Graphics.LOG_VIEWER.TAB_HEIGHT -
                         5
