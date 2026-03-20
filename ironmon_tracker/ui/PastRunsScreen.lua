@@ -23,7 +23,7 @@ local function PastRunsScreen(initialSettings, initialTracker, initialProgram)
         DESCRIPTION_FRAME_HEIGHT = 42,
         DESCRIPTION_LABEL_HEIGHT = 12,
         NAV_FRAME_HEIGHT = 19,
-        SORT_FRAME_HEIGHT = 54,
+        SORT_FRAME_HEIGHT = 34,
         BADGE_FRAME_HEIGHT = 74,
         BADGE_BUTTON_FRAME_HEIGHT = 32,
         SORT_BUTTONS_FRAME_HEIGHT = 26,
@@ -165,7 +165,7 @@ local function PastRunsScreen(initialSettings, initialTracker, initialProgram)
         currentSortMethod = 0
         currentBadgeFilter = 0
         currentPastRunHashes = seedLogger.getPastRunHashesSorted(currentSortMethod, currentBadgeFilter)
-        initSortButtonEvents()
+        --initSortButtonEvents()
         table.insert(eventListeners, MouseClickEventListener(ui.controls.removeNoBadgeRunsButton, onRemoveNoBadgeRunsClick))
         pastRuns = seedLogger.getPastRuns()
         program.changeMainScreenForPastRunView()
@@ -449,7 +449,7 @@ local function PastRunsScreen(initialSettings, initialTracker, initialProgram)
             nil
         )
         initNavigationUI()
-        initSortUI()
+        --initSortUI()
         initBadgeUI()
     end
 

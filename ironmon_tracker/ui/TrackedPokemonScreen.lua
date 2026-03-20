@@ -20,7 +20,7 @@ local function TrackedPokemonScreen(initialSettings, initialTracker, initialProg
     local constants = {
         TOP_FRAME_HEIGHT = 25,
         BOTTOM_FRAME_HEIGHT = 168,
-        NAV_FRAME_HEIGHT = 23,
+        NAV_FRAME_HEIGHT = 17,
         SEARCH_FRAME_HEIGHT = 97,
         SEARCH_BAR_HEIGHT = 14,
         MAIN_TEXT_HEADING_HEIGHT = 18,
@@ -110,27 +110,27 @@ local function TrackedPokemonScreen(initialSettings, initialTracker, initialProg
     end
 
     local function initSearchFrame()
-        ui.controls.searchHeading =
-            TextLabel(
-            Component(
-                ui.frames.mainBottomFrame,
-                Box(
-                    {x = 5, y = 5},
-                    {
-                        width = Graphics.SIZES.MAIN_SCREEN_WIDTH - 2 * Graphics.SIZES.BORDER_MARGIN,
-                        height = constants.MAIN_TEXT_HEADING_HEIGHT
-                    },
-                    "Top box background color",
-                    "Top box border color",
-                    false
-                )
-            ),
-            TextField(
-                "Search",
-                {x = 50, y = 1},
-                TextStyle(13, Graphics.FONT.DEFAULT_FONT_FAMILY, "Top box text color", "Top box background color")
-            )
-        )
+        -- ui.controls.searchHeading =
+            -- TextLabel(
+            -- Component(
+                -- ui.frames.mainBottomFrame,
+                -- Box(
+                    -- {x = 5, y = 5},
+                    -- {
+                        -- width = Graphics.SIZES.MAIN_SCREEN_WIDTH - 2 * Graphics.SIZES.BORDER_MARGIN,
+                        -- height = constants.MAIN_TEXT_HEADING_HEIGHT
+                    -- },
+                    -- "Top box background color",
+                    -- "Top box border color",
+                    -- false
+                -- )
+            -- ),
+            -- TextField(
+                -- "Search",
+                -- {x = 50, y = 1},
+                -- TextStyle(13, Graphics.FONT.DEFAULT_FONT_FAMILY, "Top box text color", "Top box background color")
+            -- )
+        -- )
         ui.frames.searchFrame =
             Frame(
             Box(
@@ -195,7 +195,7 @@ local function TrackedPokemonScreen(initialSettings, initialTracker, initialProg
             Box(
                 {
                     x = Graphics.SIZES.SCREEN_WIDTH,
-                    y = Graphics.SIZES.MAIN_SCREEN_HEIGHT - 6
+                    y = Graphics.SIZES.MAIN_SCREEN_HEIGHT - 10
                 },
                 {width = Graphics.SIZES.MAIN_SCREEN_WIDTH, height = constants.BOTTOM_FRAME_HEIGHT},
                 "Main background color",
@@ -230,7 +230,7 @@ local function TrackedPokemonScreen(initialSettings, initialTracker, initialProg
                 {x = 0, y = 0},
                 {
                     width = Graphics.SIZES.MAIN_SCREEN_WIDTH - 2 * Graphics.SIZES.BORDER_MARGIN,
-                    height = 24
+                    height = 22
                 },
                 "Top box background color",
                 "Top box border color"

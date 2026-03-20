@@ -16,7 +16,7 @@ local function RestorePointsScreen(initialSettings, initialTracker, initialProgr
     local constants = {
         MAIN_FRAME_HEIGHT = 326,
         DESCRIPTION_FRAME_HEIGHT = 80,
-        MAIN_BUTTONS_FRAME_HEIGHT = 196,
+        MAIN_BUTTONS_FRAME_HEIGHT = 145,
         RESTORE_FRAME_HEIGHT = 56,
         RESTORE_FRAME_WIDTH = 126,
         RESTORE_BUTTON_WIDTH = 90,
@@ -74,7 +74,7 @@ local function RestorePointsScreen(initialSettings, initialTracker, initialProgr
     end
 
     local function readRestorePointsIntoUI()
-        for index = 1, 3, 1 do
+        for index = 1, 2, 1 do
             local restorePoint = restorePoints[index]
             if restorePoint ~= nil then
                 ui.restorePointFrames[index].frame.setVisibility(true)
@@ -336,7 +336,7 @@ local function RestorePointsScreen(initialSettings, initialTracker, initialProgr
             )
         )
         ui.restorePointFrames = {}
-        for i = 1, 3, 1 do
+        for i = 1, 2, 1 do
             ui.restorePointFrames[i] = createRestorePointFrame(i)
         end
     end

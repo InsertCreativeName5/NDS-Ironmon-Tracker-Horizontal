@@ -37,7 +37,7 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
     end
 
     local function onColorEditClick()
-        client.SetGameExtraPadding(0, 0, Graphics.SIZES.BADGE_COLOR_EDIT_PADDING, Graphics.SIZES.OPTIONS_PADDING)
+        client.SetGameExtraPadding(0, 0, Graphics.SIZES.BADGE_COLOR_EDIT_PADDING, Graphics.SIZES.OPTIONS_PADDING+92)
         program.setCurrentScreens({program.UI_SCREENS.MAIN_SCREEN, program.UI_SCREENS.COLOR_SCHEME_SCREEN})
         program.drawCurrentScreens()
     end
