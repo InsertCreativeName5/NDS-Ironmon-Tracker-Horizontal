@@ -23,7 +23,7 @@ local function TrackerUpdater(initialSettings)
         local archiveName = "NDS-Ironmon-Tracker-main.tar.gz"
         local folderName = "NDS-Ironmon-Tracker-main"
 
-        local TAR_URL = "https://github.com/Brian0255/NDS-Ironmon-Tracker/archive/main.tar.gz"
+        local TAR_URL = "https://github.com/InsertCreativeName5/NDS-Ironmon-Tracker-Horizontal/archive/main.tar.gz"
 
         -- Each individual command listed in order, to be appended together later
         local batchCommands = {}
@@ -99,7 +99,7 @@ local function TrackerUpdater(initialSettings)
     end
 
     local function updateLatestVersion()
-        local versionURL = "https://api.github.com/repos/Brian0255/NDS-Ironmon-Tracker/releases/latest"
+        local versionURL = "https://api.github.com/repos/InsertCreativeName5/NDS-Ironmon-Tracker-Horizontal/releases/latest"
         local command = "curl " .. versionURL .. " --ssl-no-revoke"
         local response = MiscUtils.runExecuteCommand(command)
         if response ~= nil and response ~= "" then
