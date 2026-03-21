@@ -83,6 +83,8 @@ local function Main()
 		tracker.updatePlaytime(program.getGameInfo().NAME)
 		local soundOn = client.GetSoundOn()
 		client.SetSoundOn(false)
+        DrawingUtils.clearImageCache()
+        console.clear()
 		local nextRomInfo
 		nextRomInfo = QuickLoader.loadNextRom()
 		if nextRomInfo ~= nil then
@@ -94,12 +96,10 @@ local function Main()
 			if gameinfo.getromname() ~= "Null" then
 				client.SetSoundOn(soundOn)
 				loadNextSeed = false
-				self.run()
 			end
 		else
 			client.SetSoundOn(soundOn)
 			loadNextSeed = false
-			self.run()
 		end
 	end
 
@@ -148,6 +148,12 @@ local function Main()
 	end
 
 	function self.run()
+        while true do
+            self.startRun()
+            loadNext()
+        end
+    end
+    function self.startRun()
 		local loaded = false
 		while not loaded do
 			if gameinfo.getromname() ~= "Null" then
@@ -199,12 +205,18 @@ local function Main()
 		ThemeFactory.setPokemonThemeDisablingFunction(program.turnOffPokemonTheme)
 		event.onexit(program.onProgramExit, "onProgramExit")
         event.onconsoleclose(program.onExitAndCloseRequiredProcesses, "onExitAndCloseRequiredProcesses")
+        local uncleaned = 0
 		while not loadNextSeed do
 			program.main()
 			loadNextSeed = checkForNextSeedCombo()
 			emu.frameadvance()
+            if uncleaned > 30 then
+                collectgarbage("step")
+                uncleaned = 0
+            else
+                uncleaned = uncleaned + 1
+            end
 		end
-		loadNext()
 	end
 
 	function self.loadNextSeed()

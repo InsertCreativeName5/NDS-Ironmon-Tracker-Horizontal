@@ -168,6 +168,14 @@ function DrawingUtils.drawHorizontalBarGraph(
     end
 end
 
+function DrawingUtils.clearImageCache(waitFramesBeforeClearing, scaleWithSpeedup)
+    local function clearCacheAndForceDraw()
+        gui.clearImageCache()
+        gui.drawPixel(Graphics.SIZES.MAIN_SCREEN_WIDTH + 1, 1, 0x01000000)
+    end
+    clearCacheAndForceDraw()
+end
+
 function DrawingUtils.drawVerticalBarGraph(
     position,
     size,

@@ -1060,7 +1060,7 @@ local function Program(initialTracker, initialMemoryAddresses, initialGameInfo, 
 	function self.main()
 		Input.updateMouse()
 		Input.updateJoypad()
-		local runMainScreenEvents =
+        local runMainScreenEvents =
 			(doneWithTitleScreen or tracker.getFirstPokemonID() ~= nil) and
 			not self.UI_SCREEN_OBJECTS[self.UI_SCREENS.TITLE_SCREEN].isEditingFavorites()
 		self.UI_SCREEN_OBJECTS[self.UI_SCREENS.MAIN_SCREEN].setRunEventListeners(runMainScreenEvents)
@@ -1069,8 +1069,7 @@ local function Program(initialTracker, initialMemoryAddresses, initialGameInfo, 
 			for _, eventListener in pairs(eventListeners) do
 				eventListener.listen()
 			end
-
-			for _, screen in pairs(currentScreens) do
+            for _, screen in pairs(currentScreens) do
 				screen.runEventListeners()
 			end
 		end
@@ -1081,7 +1080,7 @@ local function Program(initialTracker, initialMemoryAddresses, initialGameInfo, 
 		if settings.timer.ENABLED then
 			self.UI_SCREEN_OBJECTS[self.UI_SCREENS.TIMER_SCREEN].runEventListeners()
 		end
-		animateUpdate()
+        animateUpdate()
 	end
 
 	-- Closes down the Tracker, saves data, and shuts down any additional processes
