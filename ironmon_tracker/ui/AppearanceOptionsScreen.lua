@@ -20,7 +20,7 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
         MAIN_BUTTON_WIDTH = 106,
         MAIN_BUTTON_HEIGHT = 19,
         BADGE_COLOR_FRAME_HEIGHT = 84,
-        BUTTONS_FRAME_HEIGHT = 60
+        BUTTONS_FRAME_HEIGHT = 85
     }
     local ui = {}
     local eventListeners = {}
@@ -115,8 +115,8 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
             -- "EXPERIENCE_BAR",
             -- "RANDOM_BALL_PICKER",
             "REPEL_ICON",
-            -- "RIGHT_JUSTIFIED_NUMBERS",
-            -- "SHOW_POKECENTER_HEALS",
+            "RIGHT_JUSTIFIED_NUMBERS",
+            "SHOW_POKECENTER_HEALS",
             "SHOW_ACCURACY_AND_EVASION",
             "SHOW_NICKNAME",
             -- "BAG_HEALS_SHOW_HP_INSTEAD"

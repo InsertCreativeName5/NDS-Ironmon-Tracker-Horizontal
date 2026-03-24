@@ -81,10 +81,6 @@ local function Frame(initialBox, initialLayout, initialFrame, initialVisibility)
         return visible
     end
     function self.move(newPosition)
-        if newPosition.y == 6 and newPosition.x == 604 then
-            print("Moved frame?")
-            debug.getinfo(2)
-        end
         box.move(newPosition)
     end
     function self.shift(xAmount, yAmount)

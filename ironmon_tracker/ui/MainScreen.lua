@@ -224,7 +224,6 @@ local function MainScreen(initialSettings, initialTracker, initialProgram)
     end
 
     local function onMoveHeaderHover(params)
-        print("Hover?")
         if params.pokemon == nil then
             return
         end
@@ -317,7 +316,7 @@ local function MainScreen(initialSettings, initialTracker, initialProgram)
         mainScreenUIInitializer = MainScreenUIInitializer(ui, program.getGameInfo())
         mainScreenUIInitializer.initUI()
         browsManager =
-        BrowsManager(initialSettings, ui, frameCounters, initialProgram, initialProgram.UI_SCREENS.MAIN_SCREEN)
+            BrowsManager(initialSettings, ui, frameCounters, initialProgram, initialProgram.UI_SCREENS.MAIN_SCREEN)
         browsManager.initialize()
         client.SetGameExtraPadding(0, 0, Graphics.SIZES.MAIN_SCREEN_PADDING, Graphics.SIZES.OPTIONS_PADDING)
     end
@@ -1158,8 +1157,6 @@ local function MainScreen(initialSettings, initialTracker, initialProgram)
         )
         hoverListeners.moveHeaderHoverListener =
             HoverEventListener(ui.controls.moveHeaderLearnedText, onMoveHeaderHover, {pokemon = nil}, onHoverInfoEnd)
-        print("Gear")
-        print(ui.controls.gearIcon.getPosition().x)
         eventListeners.optionsIconListener = MouseClickEventListener(ui.controls.gearIcon, openOptionsScreen, nil)
         eventListeners.noteIconListener = MouseClickEventListener(ui.controls.noteIcon, createNote, nil)
         hoverListeners.healingItemsHoverListener =
@@ -1197,7 +1194,6 @@ local function MainScreen(initialSettings, initialTracker, initialProgram)
             false,
             true
         )
-        print(ui.controls.pokemonLevelAndEvo.getPosition().y);
 
         table.insert(eventListeners, MouseClickEventListener(ui.frames.tourneyPointsFrame, onTourneyPointsClick))
         table.insert(eventListeners, MouseClickEventListener(ui.controls.pokemonLevelAndEvo, program.onEvoLabelClick))
@@ -1279,14 +1275,12 @@ local function MainScreen(initialSettings, initialTracker, initialProgram)
     end
 
     function self.resetToDefault()
-        print("Reset")
         ui.frames.mainFrame.move({x = Graphics.SIZES.SCREEN_WIDTH, y = 0})
         inTrackedView = false
         inLockedView = false
     end
 
     function self.moveMainScreen(newPosition)
-        print("Move icon")
         ui.frames.mainFrame.move(newPosition)
     end
 
