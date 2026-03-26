@@ -20,8 +20,8 @@ local function TrackerUpdater(initialSettings)
     end
 
     local function runBatchCommand()
-        local archiveName = "NDS-Ironmon-Tracker-main.tar.gz"
-        local folderName = "NDS-Ironmon-Tracker-main"
+        local archiveName = "NDS-Ironmon-Tracker-Horizontal-main.tar.gz"
+        local folderName = "NDS-Ironmon-Tracker-Horizontal-main"
 
         local TAR_URL = "https://github.com/InsertCreativeName5/NDS-Ironmon-Tracker-Horizontal/archive/main.tar.gz"
 
