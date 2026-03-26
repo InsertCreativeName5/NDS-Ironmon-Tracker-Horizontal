@@ -13,7 +13,7 @@ local function AppearanceOptionsScreen(initialSettings, initialTracker, initialP
     local tracker = initialTracker
     local program = initialProgram
     local constants = {
-        MAIN_HEIGHT = 250,
+        MAIN_HEIGHT = 300,
         TOGGLE_FRAME_WIDTH = 200,
         TOGGLE_FRAME_HEIGHT = 12,
         BUTTON_SIZE = 10,
