@@ -1,11 +1,11 @@
 MiscConstants = {}
 
-MiscConstants.TRACKER_VERSION = "0.6.0"
+MiscConstants.TRACKER_VERSION = "0.6.1"
 
 MiscConstants.BIZHAWK_VERSION = client.getversion()
 
 MiscConstants.UPDATE_NOTES = {
-    "-- Fixed auto updater fully."
+    "-- Maple, EAT!"
 }
 
 MiscConstants.DEFAULT_SETTINGS = {
