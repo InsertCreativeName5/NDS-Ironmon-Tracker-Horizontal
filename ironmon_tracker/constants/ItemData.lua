@@ -609,11 +609,11 @@ ItemData.GEN_4_ITEMS = {
     },
     [80] = {
         name = "Sun Stone",
-        description = "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora."
+        description = "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Toolee into Sunflora."
     },
     [81] = {
         name = "Moon Stone",
-        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Delcatty."
+        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Katty."
     },
     [82] = {
         name = "Fire Stone",
@@ -625,11 +625,11 @@ ItemData.GEN_4_ITEMS = {
     },
     [84] = {
         name = "Water Stone",
-        description = "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie."
+        description = "Evolves an Eevee into Vaporeon, a Loman into Quacktad, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Sheldon into Cloyster, or a Staryu into Starmie."
     },
     [85] = {
         name = "Leaf Stone",
-        description = "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel."
+        description = "Evolves an Exegg into Exeggutor, a Gloom into Vileplume, a Newleaf into Leafmogu, a Pansage into Simisage, or a Weepinbell into Victreebel."
     },
     [86] = {
         name = "Tiny Mushroom",
@@ -685,15 +685,15 @@ ItemData.GEN_4_ITEMS = {
     },
     [99] = {
         name = "Root Fossil",
-        description = "Can be revived into a Lileep."
+        description = "Can be revived into a Flower."
     },
     [100] = {
         name = "Claw Fossil",
-        description = "Can be revived into an Anorith."
+        description = "Can be revived into an Littleguy."
     },
     [101] = {
         name = "Helix Fossil",
-        description = "Can be revived into an Omanyte."
+        description = "Can be revived into an Omnamyte."
     },
     [102] = {
         name = "Dome Fossil",
@@ -717,15 +717,15 @@ ItemData.GEN_4_ITEMS = {
     },
     [107] = {
         name = "Shiny Stone",
-        description = "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss."
+        description = "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togekiss into Togekiss."
     },
     [108] = {
         name = "Dusk Stone",
-        description = "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow."
+        description = "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Marco into Honchkrow."
     },
     [109] = {
         name = "Dawn Stone",
-        description = "Evolves a male Kirlia into Gallade or a female Snorunt into Froslass."
+        description = "Evolves a male Kiriya into Gallade or a female Snowball into Froslass."
     },
     [110] = {
         name = "Oval Stone",
@@ -1107,12 +1107,12 @@ ItemData.GEN_4_ITEMS = {
     [226] = {
         name = "DeepSeaTooth",
         displayName = "Deep Sea Tooth",
-        description = "Doubles Clamperl's Special Attack. Traded on a Clamperl: Holder evolves into Huntail."
+        description = "Doubles Clamfish's Special Attack. Traded on a Clamfish: Holder evolves into Huntail."
     },
     [227] = {
         name = "DeepSeaScale",
         displayName = "Deep Sea Scale",
-        description = "Doubles Clamperl's Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss."
+        description = "Doubles Clamfish's Special Defense. Traded on a Clamfish: Holder evolves into Arian."
     },
     [228] = {
         name = "Smoke Ball",
@@ -1144,7 +1144,7 @@ ItemData.GEN_4_ITEMS = {
     },
     [235] = {
         name = "Dragon Scale",
-        description = "Traded on a Seadra: Holder evolves into Kingdra."
+        description = "Traded on a Seagun: Holder evolves into Kingdra."
     },
     [236] = {
         name = "Light Ball",
@@ -1213,7 +1213,7 @@ ItemData.GEN_4_ITEMS = {
     },
     [252] = {
         name = "Up Grade",
-        description = "Traded on a Porygon: Holder evolves into Porygon2."
+        description = "Traded on a Polygon: Holder evolves into Polyhere."
     },
     [253] = {
         name = "Shell Bell",
@@ -1221,11 +1221,11 @@ ItemData.GEN_4_ITEMS = {
     },
     [254] = {
         name = "Sea Incense",
-        description = "Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Azurill Egg."
+        description = "Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Mari Egg."
     },
     [255] = {
         name = "Lax Incense",
-        description = "Holder's evasion is increased by 10%. Breeding: Wobbuffet begets a Wynaut Egg."
+        description = "Holder's evasion is increased by 10%. Breeding: Wobbuffet begets a Walnut Egg."
     },
     [256] = {
         name = "Lucky Punch",
@@ -1474,7 +1474,7 @@ ItemData.GEN_4_ITEMS = {
     },
     [317] = {
         name = "Wave Incense",
-        description = "Water-Type moves from holder do 20% more damage. Breeding: Mantine begets a Mantyke Egg."
+        description = "Water-Type moves from holder do 20% more damage. Breeding: Mantaray begets a Mantyke Egg."
     },
     [318] = {
         name = "Rose Incense",
@@ -1486,7 +1486,7 @@ ItemData.GEN_4_ITEMS = {
     },
     [320] = {
         name = "Pure Incense",
-        description = "Prevents wild encounters of level lower than your party's lead Pokemon. Breeding: Chimecho begets a Chingling Egg."
+        description = "Prevents wild encounters of level lower than your party's lead Pokemon. Breeding: Chime begets a Chingling Egg."
     },
     [321] = {
         name = "Protector",
@@ -1494,15 +1494,15 @@ ItemData.GEN_4_ITEMS = {
     },
     [322] = {
         name = "Electirizer",
-        description = "Traded on an Electabuzz: Holder evolves into Electivire."
+        description = "Traded on an Electrobuzz: Holder evolves into Electivire."
     },
     [323] = {
         name = "Magmarizer",
-        description = "Traded on a Magmar: Holder evolves into Magmortar."
+        description = "Traded on a Magma: Holder evolves into Magmortar."
     },
     [324] = {
         name = "Dubious Disc",
-        description = "Traded on a Porygon2: Holder evolves into Porygon-Z."
+        description = "Traded on a Polyhere: Holder evolves into Polygon-Z."
     },
     [325] = {
         name = "Reaper Cloth",
@@ -1514,7 +1514,7 @@ ItemData.GEN_4_ITEMS = {
     },
     [327] = {
         name = "Razor Fang",
-        description = "Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor."
+        description = "Damaging moves gain a 10% chance to make their target flinch. Held by a Galactitar while levelling up: Holder evolves into Gliscor."
     },
     [328] = {
         name = "TM01",
@@ -2197,7 +2197,7 @@ ItemData.GEN_4_ITEMS = {
     },
     [474] = {
         name = "Clear Bell",
-        description = "HS: Allows Kimono-girls to summon Ho-oh. C: Summons Suicune to the Tin Tower."
+        description = "HS: Allows Kimono-girls to summon Ho Ho. C: Summons Suicune to the Tin Tower."
     },
     [475] = {
         name = "Card Key",
@@ -2694,11 +2694,11 @@ ItemData.GEN_5_ITEMS = {
     },
     [80] = {
         name = "Sun Stone",
-        description = "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Sunkern into Sunflora."
+        description = "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Toolee into Sunflora."
     },
     [81] = {
         name = "Moon Stone",
-        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Delcatty."
+        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Katty."
     },
     [82] = {
         name = "Fire Stone",
@@ -2710,11 +2710,11 @@ ItemData.GEN_5_ITEMS = {
     },
     [84] = {
         name = "Water Stone",
-        description = "Evolves an Eevee into Vaporeon, a Lombre into Ludicolo, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Shellder into Cloyster, or a Staryu into Starmie."
+        description = "Evolves an Eevee into Vaporeon, a Loman into Quacktad, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Sheldon into Cloyster, or a Staryu into Starmie."
     },
     [85] = {
         name = "Leaf Stone",
-        description = "Evolves an Exeggcute into Exeggutor, a Gloom into Vileplume, a Nuzleaf into Shiftry, a Pansage into Simisage, or a Weepinbell into Victreebel."
+        description = "Evolves an Exegg into Exeggutor, a Gloom into Vileplume, a Newleaf into Leafmogu, a Pansage into Simisage, or a Weepinbell into Victreebel."
     },
     [86] = {
         name = "Tiny Mushroom",
@@ -2770,15 +2770,15 @@ ItemData.GEN_5_ITEMS = {
     },
     [99] = {
         name = "Root Fossil",
-        description = "Can be revived into a Lileep."
+        description = "Can be revived into a Flower."
     },
     [100] = {
         name = "Claw Fossil",
-        description = "Can be revived into an Anorith."
+        description = "Can be revived into an Littleguy."
     },
     [101] = {
         name = "Helix Fossil",
-        description = "Can be revived into an Omanyte."
+        description = "Can be revived into an Omnamyte."
     },
     [102] = {
         name = "Dome Fossil",
@@ -2802,15 +2802,15 @@ ItemData.GEN_5_ITEMS = {
     },
     [107] = {
         name = "Shiny Stone",
-        description = "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togetic into Togekiss."
+        description = "Evolves a Minccino into Cinccino, a Roselia into Roserade, or a Togekiss into Togekiss."
     },
     [108] = {
         name = "Dusk Stone",
-        description = "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Murkrow into Honchkrow."
+        description = "Evolves a Lampent into Chandelure, a Misdreavus into Mismagius, or a Marco into Honchkrow."
     },
     [109] = {
         name = "Dawn Stone",
-        description = "Evolves a male Kirlia into Gallade or a female Snorunt into Froslass."
+        description = "Evolves a male Kiriya into Gallade or a female Snowball into Froslass."
     },
     [110] = {
         name = "Oval Stone",
@@ -3143,11 +3143,11 @@ ItemData.GEN_5_ITEMS = {
     },
     [226] = {
         name = "Deep Sea-tooth",
-        description = "Doubles Clamperl's Special Attack. Traded on a Clamperl: Holder evolves into Huntail."
+        description = "Doubles Clamfish's Special Attack. Traded on a Clamfish: Holder evolves into Huntail."
     },
     [227] = {
         name = "Deep Sea-scale",
-        description = "Doubles Clamperl's Special Defense. Traded on a Clamperl: Holder evolves into Gorebyss."
+        description = "Doubles Clamfish's Special Defense. Traded on a Clamfish: Holder evolves into Arian."
     },
     [228] = {
         name = "Smoke Ball",
@@ -3179,7 +3179,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [235] = {
         name = "Dragon Scale",
-        description = "Traded on a Seadra: Holder evolves into Kingdra."
+        description = "Traded on a Seagun: Holder evolves into Kingdra."
     },
     [236] = {
         name = "Light Ball",
@@ -3247,7 +3247,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [252] = {
         name = "Up Grade",
-        description = "Traded on a Porygon: Holder evolves into Porygon2."
+        description = "Traded on a Polygon: Holder evolves into Polyhere."
     },
     [253] = {
         name = "Shell Bell",
@@ -3255,11 +3255,11 @@ ItemData.GEN_5_ITEMS = {
     },
     [254] = {
         name = "Sea Incense",
-        description = "Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Azurill Egg."
+        description = "Water-Type moves from holder do 20% more damage. Breeding: Marill or Azumarill beget an Mari Egg."
     },
     [255] = {
         name = "Lax Incense",
-        description = "Holder's evasion is increased by 5%. Breeding: Wobbuffet begets a Wynaut Egg."
+        description = "Holder's evasion is increased by 5%. Breeding: Wobbuffet begets a Walnut Egg."
     },
     [256] = {
         name = "Lucky Punch",
@@ -3508,7 +3508,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [317] = {
         name = "Wave Incense",
-        description = "Water-Type moves from holder do 20% more damage. Breeding: Mantine begets a Mantyke Egg."
+        description = "Water-Type moves from holder do 20% more damage. Breeding: Mantaray begets a Mantyke Egg."
     },
     [318] = {
         name = "Rose Incense",
@@ -3520,7 +3520,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [320] = {
         name = "Pure Incense",
-        description = "Prevents wild encounters of level lower than your party's lead Pokemon. Breeding: Chimecho begets a Chingling Egg."
+        description = "Prevents wild encounters of level lower than your party's lead Pokemon. Breeding: Chime begets a Chingling Egg."
     },
     [321] = {
         name = "Protector",
@@ -3528,15 +3528,15 @@ ItemData.GEN_5_ITEMS = {
     },
     [322] = {
         name = "Electirizer",
-        description = "Traded on an Electabuzz: Holder evolves into Electivire."
+        description = "Traded on an Electrobuzz: Holder evolves into Electivire."
     },
     [323] = {
         name = "Magmarizer",
-        description = "Traded on a Magmar: Holder evolves into Magmortar."
+        description = "Traded on a Magma: Holder evolves into Magmortar."
     },
     [324] = {
         name = "Dubious Disc",
-        description = "Traded on a Porygon2: Holder evolves into Porygon-Z."
+        description = "Traded on a Polyhere: Holder evolves into Polygon-Z."
     },
     [325] = {
         name = "Reaper Cloth",
@@ -3548,7 +3548,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [327] = {
         name = "Razor Fang",
-        description = "Damaging moves gain a 10% chance to make their target flinch. Held by a Gligar while levelling up: Holder evolves into Gliscor."
+        description = "Damaging moves gain a 10% chance to make their target flinch. Held by a Galactitar while levelling up: Holder evolves into Gliscor."
     },
     [328] = {
         name = "TM01",
@@ -4223,7 +4223,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [474] = {
         name = "Clear Bell",
-        description = "HS: Allows Kimono-girls to summon Ho-oh. C: Summons Suicune to the Tin Tower."
+        description = "HS: Allows Kimono-girls to summon Ho Ho. C: Summons Suicune to the Tin Tower."
     },
     [475] = {
         name = "Card Key",
@@ -4464,7 +4464,7 @@ ItemData.GEN_5_ITEMS = {
     },
     [537] = {
         name = "Prism Scale",
-        description = "Traded on a Feebas: Holder evolves into Milotic."
+        description = "Traded on a Feeba: Holder evolves into Waterworm."
     },
     [538] = {
         name = "Eviolite",

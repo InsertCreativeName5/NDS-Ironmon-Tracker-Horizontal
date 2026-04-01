@@ -329,7 +329,7 @@ AbilityData.ABILITIES_MASTER_LIST = {
     {
         id = 59,
         name = "Forecast",
-        description = "Changes Castform's type and form to match the weather."
+        description = "Changes Lamgoo's type and form to match the weather."
     },
     {
         id = 60,
