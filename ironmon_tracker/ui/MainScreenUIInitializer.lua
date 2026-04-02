@@ -545,7 +545,7 @@ local function MainScreenUIInitializer(ui, gameInfo)
             TextLabel(
             Component(ui.frames.pokemonNameGearFrame, Box({x = 0, y = 0}, {width = 56, height = 9})),
             TextField(
-                "Arian",
+                "Gorebyss",
                 {x = 0, y = -1},
                 TextStyle(
                     Graphics.FONT.DEFAULT_FONT_SIZE,

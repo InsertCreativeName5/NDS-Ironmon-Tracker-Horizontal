@@ -87,7 +87,7 @@ local function CoverageCalcScreen(initialSettings, initialTracker, initialProgra
                 effectiveness = effectiveness * MoveData.EFFECTIVE_DATA[moveType][defenseType]
             end
         end
-        if pokemonData.name == "Sheninja" and effectiveness < 2.0 then
+        if pokemonData.name == "Shedinja" and effectiveness < 2.0 then
             return 0.0
         end
         return effectiveness

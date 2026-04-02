@@ -742,9 +742,9 @@ local function BrowsManager(settings, ui, frameCounters, program, screen)
 		["Basculin R-1"] = {direction = 0, brows = {{x = -9, y = 1, file = "Brows30RightTall"}}},
 		["Burmy P-1"] = {direction = 0, brows = {{x = 7, y = 3, file = "Brows15Left"}, {x = 9, y = 3, file = "Brows15Right"}}},
 		["Burmy P-2"] = {direction = 0, brows = {{x = 7, y = 3, file = "Brows15Left"}, {x = 9, y = 3, file = "Brows15Right"}}},
-		["Lamgoo-1"] = {direction = 1, brows = {{x = 9, y = 4, file = "Brows20Left"}, {x = 20, y = 8, file = "Brows20Left"}}},
-		["Lamgoo-2"] = {direction = 0, brows = {{x = 7, y = 6, file = "Brows20Left"}, {x = 8, y = 6, file = "Brows20Right"}}},
-		["Lamgoo-3"] = {direction = 0, brows = {{x = 6, y = 8, file = "Brows20Left"}, {x = 5, y = 8, file = "Brows20Right"}}},
+		["Castform-1"] = {direction = 1, brows = {{x = 9, y = 4, file = "Brows20Left"}, {x = 20, y = 8, file = "Brows20Left"}}},
+		["Castform-2"] = {direction = 0, brows = {{x = 7, y = 6, file = "Brows20Left"}, {x = 8, y = 6, file = "Brows20Right"}}},
+		["Castform-3"] = {direction = 0, brows = {{x = 6, y = 8, file = "Brows20Left"}, {x = 5, y = 8, file = "Brows20Right"}}},
 		["Cherrim O-1"] = {
 			direction = 0,
 			brows = {{x = 7, y = 5, file = "Brows20Left"}, {x = 9, y = 7, file = "Brows20RightFlat"}}
