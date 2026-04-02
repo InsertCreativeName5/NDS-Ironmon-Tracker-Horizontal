@@ -609,11 +609,11 @@ ItemData.GEN_4_ITEMS = {
     },
     [80] = {
         name = "Sun Stone",
-        description = "Evolves a Cottonee into Whimsicott, a VileGloom into Bellossom, a Petilil into Lilligant, or a Toolee into Sunflora."
+        description = "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Toolee into Sunflora."
     },
     [81] = {
         name = "Moon Stone",
-        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorun into Nidoking, or a Skitty into Katty."
+        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Katty."
     },
     [82] = {
         name = "Fire Stone",
@@ -625,11 +625,11 @@ ItemData.GEN_4_ITEMS = {
     },
     [84] = {
         name = "Water Stone",
-        description = "Evolves an Eevee into Vaporeon, a Loman into Quacktad, a Panpour into Simipour, a Poliwhirl into Poliswag, a Sheldon into Cloyster, or a Staryu into Starmie."
+        description = "Evolves an Eevee into Vaporeon, a Loman into Quacktad, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Sheldon into Cloyster, or a Staryu into Starmie."
     },
     [85] = {
         name = "Leaf Stone",
-        description = "Evolves an Exegg into Exeggutor, a VileGloom into Vilebloom, a Newleaf into Leafmogu, a Pansage into Simisage, or a Weepinbell into Victreebel."
+        description = "Evolves an Exegg into Exeggutor, a Gloom into Vileplume, a Newleaf into Leafmogu, a Pansage into Simisage, or a Weepinbell into Victreebel."
     },
     [86] = {
         name = "Tiny Mushroom",
@@ -2694,11 +2694,11 @@ ItemData.GEN_5_ITEMS = {
     },
     [80] = {
         name = "Sun Stone",
-        description = "Evolves a Cottonee into Whimsicott, a VileGloom into Bellossom, a Petilil into Lilligant, or a Toolee into Sunflora."
+        description = "Evolves a Cottonee into Whimsicott, a Gloom into Bellossom, a Petilil into Lilligant, or a Toolee into Sunflora."
     },
     [81] = {
         name = "Moon Stone",
-        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorun into Nidoking, or a Skitty into Katty."
+        description = "Evolves a Clefairy into Clefable, a Jigglypuff into Wigglytuff, a Munna into Musharna, a Nidorina into Nidoqueen, a Nidorino into Nidoking, or a Skitty into Katty."
     },
     [82] = {
         name = "Fire Stone",
@@ -2710,11 +2710,11 @@ ItemData.GEN_5_ITEMS = {
     },
     [84] = {
         name = "Water Stone",
-        description = "Evolves an Eevee into Vaporeon, a Loman into Quacktad, a Panpour into Simipour, a Poliwhirl into Poliswag, a Sheldon into Cloyster, or a Staryu into Starmie."
+        description = "Evolves an Eevee into Vaporeon, a Loman into Quacktad, a Panpour into Simipour, a Poliwhirl into Poliwrath, a Sheldon into Cloyster, or a Staryu into Starmie."
     },
     [85] = {
         name = "Leaf Stone",
-        description = "Evolves an Exegg into Exeggutor, a VileGloom into Vilebloom, a Newleaf into Leafmogu, a Pansage into Simisage, or a Weepinbell into Victreebel."
+        description = "Evolves an Exegg into Exeggutor, a Gloom into Vileplume, a Newleaf into Leafmogu, a Pansage into Simisage, or a Weepinbell into Victreebel."
     },
     [86] = {
         name = "Tiny Mushroom",

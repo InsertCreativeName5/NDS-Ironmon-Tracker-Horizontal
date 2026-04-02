@@ -219,7 +219,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF C8DDFF FDCDCD FBFD85 FFFFFF 277E2E 319D3A 289BA6 2DC3C1 BE434C FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Venubulb",
+        name = "Ivysaur",
         type = {PokemonData.POKEMON_TYPES.GRASS, PokemonData.POKEMON_TYPES.POISON},
         evolution = "32",
         bst = "405",
@@ -489,7 +489,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "000000 000000 0343B0 B40002 9B6037 FFFFFF D1A07E FFF7B0 D1A07E FFF7B0 BF7700 000000 000000 000000 0 1 1 1 0 1"
     },
     {
-        name = "Mousecate",
+        name = "Raticate",
         type = {PokemonData.POKEMON_TYPES.NORMAL, PokemonData.POKEMON_TYPES.EMPTY},
         evolution = PokemonData.EVOLUTION_TYPES.NONE,
         bst = "413",
@@ -549,7 +549,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF C8DDFF FDCDCD F0F028 E7848F 64529B 9078C8 64529B 9078C8 413C43 FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Arbark",
+        name = "Arbok",
         type = {PokemonData.POKEMON_TYPES.POISON, PokemonData.POKEMON_TYPES.EMPTY},
         evolution = PokemonData.EVOLUTION_TYPES.NONE,
         bst = "438",
@@ -684,7 +684,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF 000000 0343B0 B40002 FEF9AD FFFFFF C060B7 CE82C7 878D92 C7CACC 075368 000000 000000 FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Nidorun",
+        name = "Nidorino",
         type = {PokemonData.POKEMON_TYPES.POISON, PokemonData.POKEMON_TYPES.EMPTY},
         evolution = PokemonData.EVOLUTION_TYPES.MOON,
         bst = "365",
@@ -819,7 +819,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF A2DFFF FFA73F FEFB9C FDFAA7 A957C5 CA73E7 DDA5EF CA73E7 486A9A FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Zublue",
+        name = "Golbat",
         type = {PokemonData.POKEMON_TYPES.POISON, PokemonData.POKEMON_TYPES.FLYING},
         evolution = PokemonData.EVOLUTION_TYPES.FRIEND,
         baseFriendship = 70,
@@ -850,7 +850,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF 65FF7E FFC43F FEFB9C FFFFFF C4222B EC5968 5B8BB5 73AEE4 3C6385 FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "VileGloom",
+        name = "Gloom",
         type = {PokemonData.POKEMON_TYPES.GRASS, PokemonData.POKEMON_TYPES.POISON},
         evolution = PokemonData.EVOLUTION_TYPES.LEAF_SUN,
         bst = "395",
@@ -865,7 +865,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF 65FF7E FFC43F FEFB9C FFFFFF C4222B EC5968 5B8BB5 73AEE4 3C6385 FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Vilebloom",
+        name = "Vileplume",
         type = {PokemonData.POKEMON_TYPES.GRASS, PokemonData.POKEMON_TYPES.POISON},
         evolution = PokemonData.EVOLUTION_TYPES.NONE,
         bst = "480",
@@ -880,7 +880,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF 65FF7E FFC43F FEFB9C FFFFFF C4222B EC5968 5B8BB5 73AEE4 3C6385 FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Paramite",
+        name = "Paras",
         type = {PokemonData.POKEMON_TYPES.BUG, PokemonData.POKEMON_TYPES.GRASS},
         evolution = "24",
         bst = "285",
@@ -1120,7 +1120,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF 9CFF7A FE969D FEED69 FFFEFF 41729B 5488B6 41729B 5488B6 3E3E3E FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Poliswag",
+        name = "Poliwrath",
         type = {PokemonData.POKEMON_TYPES.WATER, PokemonData.POKEMON_TYPES.FIGHTING},
         evolution = PokemonData.EVOLUTION_TYPES.NONE,
         bst = "500",
@@ -1150,7 +1150,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF C8DDFF FDCDCD FCFF92 FFFEFF AD7C20 C89D28 96827F 725F5D 322A29 FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Alakabra",
+        name = "Kadabra",
         type = {PokemonData.POKEMON_TYPES.PSYCHIC, PokemonData.POKEMON_TYPES.EMPTY},
         evolution = "37", -- Level 37 replaces trade evolution
         bst = "400",
@@ -3465,7 +3465,7 @@ PokemonData.POKEMON_MASTER_LIST = {
         theme = "FFFFFF FFFFFF A2D3FF FEBA9C FFEB55 FFFFFF 8D5C45 B0785E C49B88 B0785E 674534 FFFFFF FFFFFF FFFFFF 0 1 1 1 0 1"
     },
     {
-        name = "Magma",
+        name = "Magmar",
         type = {PokemonData.POKEMON_TYPES.FIRE, PokemonData.POKEMON_TYPES.EMPTY},
         evolution = "38",
         bst = "250",

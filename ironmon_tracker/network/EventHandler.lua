@@ -386,7 +386,7 @@ local function changeStarterFavorite(pokemonName, slotNumber)
 	-- Not implemented
 	slotNumber = slotNumber or 1
 	local originalFaveName = "Bulbasaur"
-	local newFaveName = "Venubulb"
+	local newFaveName = "Ivysaur"
 	return string.format("Favorite #%s changed from %s to %s.",
 		slotNumber,
 		originalFaveName,
