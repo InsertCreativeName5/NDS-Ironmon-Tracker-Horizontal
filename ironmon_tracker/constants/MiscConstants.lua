@@ -6,7 +6,6 @@ MiscConstants.BIZHAWK_VERSION = client.getversion()
 
 MiscConstants.UPDATE_NOTES = {
     "-- Fixed some names"
-    "-- Maple pls eat"
 }
 
 MiscConstants.DEFAULT_SETTINGS = {
