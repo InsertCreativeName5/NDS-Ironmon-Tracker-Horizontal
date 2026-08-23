@@ -324,7 +324,7 @@ function EventData.getAbility(params)
 
         if id != 0 then
             local info = {}
-            table.insert(info, string.format("%s: %s", "Bitch", MAPLE_OUTPUT))
+            table.insert(info, string.format("%s: %s", "Bitch", "https://www.twitch.tv/maplemaple_ch"))
             return buildResponse(OUTPUT_CHAR, info)
         end
 		return buildDefaultResponse(params)
