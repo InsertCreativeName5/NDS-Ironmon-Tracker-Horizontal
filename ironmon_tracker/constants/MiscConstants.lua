@@ -1,6 +1,6 @@
 MiscConstants = {}
 
-MiscConstants.TRACKER_VERSION = "0.6.7"
+MiscConstants.TRACKER_VERSION = "0.6.8"
 
 MiscConstants.BIZHAWK_VERSION = client.getversion()
 
