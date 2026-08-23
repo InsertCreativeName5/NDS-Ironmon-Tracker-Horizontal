@@ -2,7 +2,8 @@ EventData = {
     pokemonNames = {},
     moveNames = {},
     abilityNames = {},
-	routeNames = {}
+	routeNames = {},
+    bitchNames = {"bitch"},
 }
 
 function EventData.initializeLookupTables()
@@ -319,6 +320,15 @@ end
 function EventData.getAbility(params)
 	local ability, id = getAbilityOrDefault(params)
 	if id <= 0 or not ability then
+        local id, _, distance = NetworkUtils.getClosestWord(params:lower(), EventData.bitchNames, 3)
+
+        if id != 0 then
+            local info = {}
+            table.insert(info, string.format("%s: %s", "Bitch", MAPLE_OUTPUT))
+            return buildResponse(OUTPUT_CHAR, info)
+        end
+		return buildDefaultResponse(params)
+        
 		return buildDefaultResponse(params)
 	end
 
